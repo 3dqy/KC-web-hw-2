@@ -1,0 +1,315 @@
+body{
+    font-family: candara;
+    background-color: #1E1E1E;
+}
+.sticky {
+    position: sticky; 
+}
+.modal {
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    position: fixed; 
+    margin-left: 20px;
+    width: 70%;
+}
+
+.overlay {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.container{
+    width: 100%;
+}
+.container header{
+    width: 100%;
+    height: 9vh;
+}
+header h1{
+    color: orange;width: 270px;
+}
+nav{
+    width: 95%;
+    height: 120%;
+    display: flex;
+    background-color:#aa1111;
+}
+.modal :hover{
+    background-color: black;
+}
+nav #search{
+     width: 15%;
+    position: relative;
+}
+#search i{
+    top: 8px;
+    font-weight: 100px;
+    font-size: 22px;
+    left: 8px;
+   
+}
+nav input{
+    border-radius: 29px;
+    outline: none;
+    border: none;
+    padding: 8px 12px;
+    padding-left: 20px;
+    border:4px solid #aa1111;
+    font-size: 22px;
+    font-weight: bold;
+    height: 13px;
+    width: 100%;
+    color: #aa1111;
+}
+ul{
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+li{
+    list-style: none;text-align: center;
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 23px;
+    padding: 25px 35px;
+    font-weight:900;
+    color: whitesmoke
+}
+ a:hover{
+    color: #770909;
+}
+
+#a2{
+    padding: 0px;color: #aa1111;font-size: 14px;text-align: center;margin-top: 5px;
+}
+#a3{
+    padding: 0px;color: #0213ff;font-size: 14px;text-align: center;margin-top: 5px;
+}
+#a4{
+    padding: 0px;color: #ff09de;font-size: 14px;text-align: center;margin-top: 5px;
+}
+/* header doneeee heree */
+
+
+/*  horror section starts */
+
+#h1hor{
+   display: flex; flex-direction: row;align-items: center;
+   justify-content: center;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: #ca870a;margin-left: 30px;text-decoration: underline;
+   font-size: x-large;cursor:url("https://image.ibb.co/kSQHi6/cursor.png") 1 0,auto ;margin-top: 50px;
+}
+#h1act{
+    display: flex; flex-direction: row;align-items: center;justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: #aa1111;margin-left: 80px;
+    font-size: x-large;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='30' height='36' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+#h1drama{
+    display: flex; flex-direction: row;align-items: center;justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: #aa1111;margin-left: 30px;
+    font-size: x-large;cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.svg), auto;
+}
+#h1cont{
+    display: flex; flex-direction: row;align-items: center;justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: #aa1111;margin-left: 30px;
+    font-size: x-large;cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='30' height='36' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>‍👩🏻‍💻</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+.horor{
+    background-color: #7709096b;margin-bottom: -30px;
+}
+.actn{
+    background-color: #3bd1ff5d;margin-top: -30px;margin-bottom: -20px;
+}
+.drm{
+    background-color: rgba(255, 105, 180, 0.397);margin-top: -20px;
+}
+/* images flip here */
+.flexbox{
+    display: flex; flex-direction: row;align-items: center;justify-content: center; height: 100%;width: 100%;
+    padding: 5px 5px;cursor:url("https://image.ibb.co/kSQHi6/cursor.png") 1 0,auto;margin-top: -40PX;
+    
+}
+.flexbox2{
+    display: flex; flex-direction: row;align-items: center;justify-content: center; height: 100%;width: 100%;
+    padding: 15px 15px;margin-right: 15px;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='30' height='36' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+.flexbox3{
+    display: flex; flex-direction: row;align-items: center;justify-content: center; height: 100%;width: 100%;
+    padding: 15px 15px;margin-right: 15px;cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.svg), auto;
+    
+}
+.flexbox4{
+    display: flex;flex-direction: column;align-items: center;justify-content: center;padding: 20px;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='30' height='36' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>‍👩🏻‍💻</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+.flexbox5{
+        display: flex; flex-direction: row;align-items: center;justify-content: center; height: 100%;width: 100%;
+}
+.flip-card {
+    background-color: transparent;
+    width: 180px;
+    height: 250px;
+    margin-right: 35px;
+    perspective: 1000px; 
+}
+  
+  /* This container is needed to position the front and back side */
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+  /* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+  /* Style the front side */
+.flip-card-front {
+    background-color: #aa1111c9;
+    box-shadow:8px 8px 8px #ca870a;
+    color: black;
+
+}
+  
+  /* Style the back side */
+.flip-card-back {
+    background-color: #ca870a;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+  p{
+    font-size: 17px;font-weight: bolder;margin-top: -2px;color: #ad7100;
+  }
+
+  .p2{
+    font-size: 17px;font-weight: bolder;margin-top: -2px;color: #3f0000;
+  }
+
+  .p3{
+    font-size: 17px;font-weight: bolder;margin-top: -2px;color: #2f0353;
+  }
+
+/* contact section here */
+#h1cont span{
+    color: #ca870a;
+}
+.cont{
+    padding: 3px;
+}
+.cont2{
+    padding-top: 40px;
+}
+.input1{
+height: 33px;width: 200px;background-color: #770909;border-radius: 10% 10% 10%;
+border: 30px #ca870a;color: black;font-size: 21px;font-weight: bold;text-align: center;
+}
+.input2{
+    height: 33px;width: 260px;background-color: #770909;border-radius: 10% 10% 10%;
+    border: 30px #ca870a;color: black;font-size: 21px;font-weight: bold;text-align: center;
+    }
+::placeholder{
+    text-align: center;color: black;
+}
+textarea{
+    background-color: #ca870a;border: 20%;border-color: #770909;text-align: center;color: #770909;
+    font-size: 18px;font-weight: 600;
+}
+.buton{
+   height: 50px;width: 80px;background-color: #bbb;color: #770909;margin-top: 18px;
+}
+footer{
+display:inline-flex;
+flex-direction: row;
+justify-content: center;align-items: center;
+    height: 60px;width: 100%;
+    margin-bottom: -10px;
+    text-align: center;
+    background: linear-gradient(#ca870a , #aa1111);
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+
+button {
+    text-decoration: none;
+    position: absolute;
+    border: none;
+    font-size: 20px;font-weight: bolder;
+    font-family: inherit;
+    color: rgb(168, 8, 8);
+    width: 4.9em;
+    height: 1.8em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg,#03a9f4,#e62323,#e67c25,#07090a);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: 1;
+    
+   }
+   
+   button:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+   }
+   
+   @keyframes ani {
+    0% {
+     background-position: 0%;
+    }
+   
+    100% {
+     background-position: 400%;
+    }
+   }
+   
+   button:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#03a9f4,#e62323,#e67c25,#07090a);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+   }
+   
+   button:hover::before {
+    filter: blur(20px);
+   }
+   
+   button:active {
+    background: linear-gradient(32deg,#03a9f4,#e62323,#e67c25,#07090a);
+   }
